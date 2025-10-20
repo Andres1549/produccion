@@ -448,11 +448,11 @@ public class InterfazGraficaChistes extends JFrame {
                         break;
                     case "MySQL":
                         factory = new MySQLFactory();
-                        url = "jdbc:mysql://172.30.16.45:3306/construccion1";
+                        url = "jdbc:mysql://172.30.16.213:3306/construccion1";
                         break;
                     case "PostgreSQL":
                         factory = new PostgresFactory();
-                        url = "jdbc:postgresql://172.30.16.45:5432/construccion1";
+                        url = "jdbc:postgresql://172.30.16.213:5432/construccion1";
                         break;
                 }
 
