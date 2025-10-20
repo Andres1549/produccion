@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MySQLDatabase implements Database {
-    private static final String URL = "jdbc:mysql://172.30.16.44:3306/construccion1?useSSL=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://172.30.16.213:3306/construccion1?useSSL=false&serverTimezone=UTC";
     private static final String USER = "u67001549";
     private static final String PASSWORD = "12345";
 
